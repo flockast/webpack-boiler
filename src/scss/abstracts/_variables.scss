@@ -1,0 +1,42 @@
+/**
+ * Variables
+*/
+
+/* Typography */
+$font-family: 'DINP-R';
+$font-size: 1.6rem;
+$line-height: 1.2;
+
+/* Grid setup */
+$columns: 12;
+$atom: (100% / $columns);
+
+$break_sm: 768px;
+$break_md: 1024px;
+$break_lg: 1230px;
+
+$container_max_width: 300px;
+$container_max_width_sm: 640px;
+$container_max_width_md: 980px;
+$container_max_width_lg: 1200px;
+
+$offset: 20px;
+$offset_sm: 40px;
+$offset_md: 40px;
+$offset_lg: 45px;
+
+$offset_one_side: ($offset / 2);
+$offset_sm_one_side: ($offset_sm / 2);
+$offset_md_one_side: ($offset_md / 2);
+$offset_lg_one_side: ($offset_lg / 2);
+
+$fields: 0px;
+
+/* Colour palette */
+$accent-color: #fff;
+$primary-color: #333;
+$secondary-color: #666;
+$link-color: #ec1f4e;
+$font-color: #111111;
+
+/* Components */
